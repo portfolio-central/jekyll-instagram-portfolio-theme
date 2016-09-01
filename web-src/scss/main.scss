@@ -1,8 +1,75 @@
-@charset "utf-8";
+@charset "UTF-8";
 
-// Our variables
-$body-color: yellow;
+// To enable additional Bootstrap assets, just uncomment correspondent lines
 
-body {
-  background-color: $body-color;
-}
+// Bootstrap Core variables
+
+@import "bootstrap/variables";
+
+// Custom theme variables
+
+@import "theme/variables";
+
+// Bootstrap Core mixins
+
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+
+@import "bootstrap/normalize";
+// @import "bootstrap/print";
+
+// Bootstrap Core CSS
+
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+// @import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+// Bootstrap Components
+
+//@import "bootstrap/animation";
+// @import "bootstrap/dropdown";
+// @import "bootstrap/button-group";
+// @import "bootstrap/input-group";
+// @import "bootstrap/custom-forms";
+// @import "bootstrap/nav";
+// @import "bootstrap/navbar";
+// @import "bootstrap/card";
+// @import "bootstrap/breadcrumb";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+// @import "bootstrap/labels";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/alert";
+// @import "bootstrap/progress";
+// @import "bootstrap/media";
+// @import "bootstrap/list-group";
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/close";
+
+// Bootstrap Components w/ JavaScript
+
+// @import "bootstrap/modal";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popover";
+// @import "bootstrap/carousel";
+
+// Bootstrap Utility classes
+
+@import "bootstrap/utilities";
+@import "bootstrap/utilities-background";
+@import "bootstrap/utilities-spacing";
+@import "bootstrap/utilities-responsive";
+
+
+
+// Custom theme assets: edit only files in the theme folder
+
+@import "theme/base";
+
+

@@ -2,6 +2,10 @@
 
 Clean portfolio theme for Jekyll powered by Bootstrap 4.
 
+## Live Demo
+
+https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
+
 ## Installation
 Install Jekyll:
 
