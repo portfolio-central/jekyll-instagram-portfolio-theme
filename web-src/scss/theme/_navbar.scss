@@ -1,0 +1,24 @@
+// Block: navbar
+
+.navbar {
+
+  @include media-breakpoint-up(lg) {
+    height: 5rem;
+  }
+
+  // Block: navbar-brand
+
+  &-brand {
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2.5rem;
+    }
+
+    // Modifier: navbar-brand--mobile
+
+    &--mobile {
+      float: right;
+    }
+  }
+
+}

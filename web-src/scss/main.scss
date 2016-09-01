@@ -32,13 +32,13 @@
 
 // Bootstrap Components
 
-//@import "bootstrap/animation";
-// @import "bootstrap/dropdown";
-// @import "bootstrap/button-group";
-// @import "bootstrap/input-group";
+@import "bootstrap/animation";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
 // @import "bootstrap/custom-forms";
-// @import "bootstrap/nav";
-// @import "bootstrap/navbar";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
 // @import "bootstrap/card";
 // @import "bootstrap/breadcrumb";
 // @import "bootstrap/pagination";
@@ -71,5 +71,6 @@
 // Custom theme assets: edit only files in the theme folder
 
 @import "theme/base";
+@import "theme/navbar";
 
 
