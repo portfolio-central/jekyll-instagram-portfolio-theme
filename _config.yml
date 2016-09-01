@@ -1,0 +1,15 @@
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  New Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+instagram_username: macserj
+
+# Build settings
+markdown: kramdown
+theme: minima

@@ -1,0 +1,23 @@
+{
+  "name": "jekyll-instagram-portfolio-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Theme front-end assets",
+  "scripts": {
+    "css:clean": "rm -rf ./web-dist/css && mkdir ./web-dist/css",
+    "css:sass": "node-sass --include-path ./web-src/scss --source-map ./web-dist/css --output-style compressed ./web-src/scss/main.scss ./web-dist/css/main.min.css",
+    "css:build": "npm run css:clean && npm run css:sass",
+    "css:watch": "nodemon --ext scss --watch ./web-src/scss --exec 'npm run css:lint && npm run css:build'",
+    "watch": "npm run css:watch",
+    "build": "npm run css:build"
+  },
+  "author": "Sergey Sokurenko",
+  "license": "(c) Copyright 2016 Sergey Sokurenko",
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+  }
+}
