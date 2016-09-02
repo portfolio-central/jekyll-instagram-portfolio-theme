@@ -1,11 +1,16 @@
 <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-    <div class="navbar-brand hidden-sm-down" href="/">{{ site.brand }}</div>
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2"
-            aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navbar-brand hidden-xs-down navbar-logo" href="/">{{ site.brand }}</div>
+    <button class="navbar-toggler hidden-sm-up"
+            type="button"
+            data-toggle="collapse"
+            data-target="#CollapsingNavbar"
+            aria-controls="CollapsingNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
         &#9776;
     </button>
-    <div class="navbar-brand navbar-brand--mobile hidden-md-up" href="/">{{ site.brand }}</div>
-    <div class="collapse navbar-toggleable-xs pull-sm-right" id="exCollapsingNavbar2">
+    <div class="navbar-brand navbar-brand--mobile hidden-sm-up navbar-logo" href="/">{{ site.brand }}</div>
+    <div class="collapse navbar-toggleable-xs pull-sm-right" id="CollapsingNavbar">
         <ul class="nav navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>

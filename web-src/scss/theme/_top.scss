@@ -1,0 +1,42 @@
+// Block: container-top
+
+.container-top {
+  padding-top: 4rem;
+  background-color: $theme-color-main;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 7rem;
+  }
+
+  // Element: container-top-image
+
+  &-image {
+    width: 256px;
+    height: 256px;
+  }
+
+  // Element: container-top-name
+
+  &-name {
+    @extend .theme-font;
+    font-size: 2.5rem;
+    color: darken($theme-color-main, 50%);
+
+    @include media-breakpoint-up(lg) {
+      font-size: 4rem;
+    }
+  }
+
+  // Element: container-top-headline
+
+  &-headline {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: $theme-color-main-contrast;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+  }
+}

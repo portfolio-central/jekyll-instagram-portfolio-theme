@@ -6,6 +6,40 @@
     height: 5rem;
   }
 
+  background: darken($theme-color-main, 1%);
+
+  // Element: navbar__logo
+
+  &-logo {
+    @extend .theme-font;
+    color: $theme-color-main-contrast;
+  }
+
+  // Element: nav-item
+
+  & .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: $border-radius-sm;
+
+    &:hover {
+      background: $theme-color-main;
+      & > .nav-link {
+        color: $theme-color-main-contrast;
+      }
+    }
+
+    .nav-link {
+      color: $theme-color-main-contrast;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        line-height: 3rem;
+      }
+    }
+
+  }
+
   // Block: navbar-brand
 
   &-brand {
