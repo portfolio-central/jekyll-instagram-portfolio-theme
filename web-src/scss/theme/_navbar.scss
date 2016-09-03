@@ -6,7 +6,7 @@
     height: 5rem;
   }
 
-  background: darken($theme-color-main, 1%);
+  background: $theme-color-main;
 
   // Element: navbar__logo
 
@@ -18,14 +18,18 @@
   // Element: nav-item
 
   & .nav-item {
+    cursor: pointer;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: $border-radius-sm;
+    background-color: $theme-color-main;
+    transition: background-color 0.3s ease;
 
     &:hover {
-      background: $theme-color-main;
+      background: $theme-color-main-contrast;
+
       & > .nav-link {
-        color: $theme-color-main-contrast;
+        color: $theme-color-main;
       }
     }
 

@@ -1,0 +1,38 @@
+// Block: container-contacts
+
+.container-contacts {
+  margin-top: $spacer;
+  padding-top: $spacer;
+  min-height: $spacer * 15;
+  background: $theme-color-main;
+  color: darken($theme-color-main, 50%);
+
+  // Element: container-contacts-phone
+  // Element: container-contacts-email
+
+  &-phone,
+  &-email {
+    font-size: 1.8rem;
+    padding: $spacer;
+    border-radius: $border-radius;
+    background-color: $theme-color-main;
+    transition: background-color 0.3s ease;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      background-color: $theme-color-main-contrast;
+
+      a {
+        color: darken($theme-color-main, 50%);
+      }
+    }
+  }
+
+  & a {
+    color: darken($theme-color-main, 50%);
+    text-decoration: none;
+  }
+}

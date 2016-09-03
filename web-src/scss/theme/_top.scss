@@ -1,9 +1,25 @@
 // Block: container-top
 
 .container-top {
+  display: block;
   padding-top: 4rem;
   background-color: $theme-color-main;
   text-align: center;
+  position: relative;
+
+  &:after {
+    content: "";
+    background: url("../images/profile-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 
   @include media-breakpoint-up(lg) {
     padding-top: 7rem;
@@ -12,8 +28,13 @@
   // Element: container-top-image
 
   &-image {
-    width: 256px;
-    height: 256px;
+    width: 220px;
+    height: 220px;
+
+    @include media-breakpoint-up(lg) {
+      width: 320px;
+      height: 320px;
+    }
   }
 
   // Element: container-top-name
@@ -21,9 +42,11 @@
   &-name {
     @extend .theme-font;
     font-size: 2.5rem;
+    padding-top: $spacer / 2;
     color: darken($theme-color-main, 50%);
 
     @include media-breakpoint-up(lg) {
+      padding-top: $spacer;
       font-size: 4rem;
     }
   }

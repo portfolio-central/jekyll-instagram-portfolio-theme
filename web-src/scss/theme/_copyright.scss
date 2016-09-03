@@ -1,0 +1,7 @@
+// Block: container-copyright
+
+.container-copyright {
+  padding: $spacer 0 $spacer 0;
+  color: darken($theme-color-main, 50%);
+  background: $theme-color-main;
+}
