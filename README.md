@@ -1,6 +1,7 @@
 # Jekyll Instagram Portfolio Theme
 
-Clean portfolio theme for Jekyll powered by Bootstrap 4.
+Clean, minimalistic and configurable portfolio theme for Jekyll powered by Bootstrap 4.
+For the portfolio section is used Instagram widget, but you can easily update it with other content source.
 
 ## Live Demo
 
