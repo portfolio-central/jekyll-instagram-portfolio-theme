@@ -1,6 +1,7 @@
 // Block: navbar
 
 .navbar {
+  transition: height .5s;
 
   @include media-breakpoint-up(lg) {
     height: 5rem;
@@ -8,11 +9,18 @@
 
   background: $theme-color-main;
 
-  // Element: navbar__logo
+  // Element: navbar-logo
 
   &-logo {
     @extend .theme-font;
     color: $theme-color-main-contrast;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s;
+
+    &.show {
+      opacity: 1;
+    }
   }
 
   // Element: nav-item
@@ -56,6 +64,17 @@
 
     &--mobile {
       float: right;
+    }
+  }
+
+  // Block: navbar-toggler
+
+  &-toggler {
+    opacity: .5;
+    transition: opacity .3s;
+
+    &.collapsed {
+      opacity: 1;
     }
   }
 

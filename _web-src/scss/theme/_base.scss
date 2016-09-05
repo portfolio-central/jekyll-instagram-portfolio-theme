@@ -16,3 +16,9 @@ h5,
 h6 {
   color: darken($theme-color-main, 50%);
 }
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
