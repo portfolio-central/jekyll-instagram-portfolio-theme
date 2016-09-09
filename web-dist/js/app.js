@@ -38,4 +38,9 @@ $(document).ready(function () {
             scrollTop: 0
         }, 300);
     });
+
+    // Promo stuff
+
+    console.log('Powered by Jekyll Instagram Portfolio Theme');
+    console.log('Project: https://github.com/portfolio-central/jekyll-instagram-portfolio-theme')
 });
