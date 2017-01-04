@@ -19,6 +19,11 @@ The best usage examples:
 
 To add your example: fork the repo, add new line to the list above and create a pull request.
 
+## Featured on
+
+- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
+- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
+
 ## Powered by
 
 - [Jekyll](https://jekyllrb.com/)
