@@ -12,7 +12,7 @@ https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
 
 The best usage examples:
 
-- [Pavel Guzenko](https://guzenko-org-ua.github.io/site/)
+- [Pavel Guzenko](http://guzenko.org.ua)
 - [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
 - [Anthony Fuentes](http://anthonyfuentes.us/)
 - [Serhii Grytsyshyn](https://grserhii.github.io/)
