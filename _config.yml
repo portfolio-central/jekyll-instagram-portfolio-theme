@@ -2,8 +2,8 @@
 # in the templates available like {{ site.myvariable }}.
 title: My Web
 email: 1045691954@qq.com
-brand: YuanyiLi
-headline: Show My Protfolio
+brand: 李苑旖
+headline: 个人博客
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
