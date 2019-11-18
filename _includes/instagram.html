@@ -5,14 +5,13 @@
         <title>卡片效果</title>
         <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <style type="text/css">
-            .cardBox {
-                width: 200px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                text-align: center;
-                float: left;
-                margin-right: 10px;
-                padding: 5px;
-                padding-top: 15px;
+            .card-columns {
+            @include media-breakpoint-only(lg) {
+                column-count: 3;
+            }
+            @include media-breakpoint-only(xl) {
+                column-count: 4;
+            }
             }
 
             .headerBox {
@@ -38,6 +37,7 @@
         </div>
     </div>
         <br>
+    <div class="row">
 
         <div class="card-columns">
 
@@ -100,6 +100,7 @@
 
                 </div>
             </div>
+        </div>
 
 
 
