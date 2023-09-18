@@ -1,13 +1,13 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
-email: your-email@domain.com
-brand: Your Name
-headline: Inventor, Engineer and Futurist
+email: dbfkvkejr0114#gmail.com
+brand: Kim Yuri
+headline: what kind of design can I do?
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://yuti0114.github.io" # the base hostname & protocol for your site
 copyright: 2016 Whatever Company, Inc. All Rights Reserved.
 
 # Build settings
@@ -17,8 +17,8 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
-phone: +1-800-555-2016
+email: dbfkvkejr0114@gmail.com
+instargram: +yuri0909_0320
 
 # Tracking
 googleAnalitycsID: UA-83933844-1
